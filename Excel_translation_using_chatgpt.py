@@ -15,7 +15,7 @@ def translate_text(text, retries=3, wait=5):
             response = openai.ChatCompletion.create(
                 model="gpt-4",
                 messages=[
-                    {"role": "user", "content": f"Translate the following text to English professionally:\n\n{text}"}
+                    {"role": "user", "content": f"Just Translate the following text to English professionally and do not add any thing extra but translation in the response:\n\n{text}"}
                 ],
                 max_tokens=2000,
                 temperature=0.2
