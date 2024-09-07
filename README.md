@@ -31,7 +31,7 @@ This Python script translates text in the "message_Original_cleared" column of a
 1. Place your Excel file in the repository directory or provide the correct path to it in `translate_excel.py`.
 2. Run the script:
     ```sh
-    python translate_excel.py
+    python Excel_translation_using_chatgpt.py
     ```
 
 The script will process the Excel file, translate the specified column, and save the results in a new file with "_translated" appended to the original file name.
