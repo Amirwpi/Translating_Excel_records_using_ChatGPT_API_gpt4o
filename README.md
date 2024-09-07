@@ -12,8 +12,8 @@ This Python script translates text in the "message_Original_cleared" column of a
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/yourrepository.git
-    cd yourrepository
+    git clone https://github.com/Amirwpi/Translating_Excel_records_using_ChatGPT_API_gpt4o.git
+    cd Translating_Excel_records_using_ChatGPT_API_gpt4o
     ```
 
 2. Install the required packages:
